@@ -1,0 +1,10 @@
+extends base.pug
+include partials/_video
+
+block content
+  h2 안녕하세요. 최신 트렌드 영상을 확인하세요.
+  each video in videos 
+    +video(video)
+  else 
+    li 영상이 없습니다.
+

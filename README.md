@@ -1,4 +1,2 @@
-# YOUTUBE CLONE CLASS - mission
+# Wetube
 
-## 210525
-  - start
